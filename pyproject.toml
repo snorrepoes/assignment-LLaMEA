@@ -4,9 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Dario Ackermann", email = "darioack@gmail.com" }
+    { name = "Dario Ackermann", email = "darioack@gmail.com" },
+    # { name = "Ewelina ... ", email = "name@example.com" },
+    { name = "Brasso Kattenberg", email = "brasso.kattenberg@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "about-time==4.2.1",
     "alive-progress==3.3.0",
@@ -72,6 +74,7 @@ dependencies = [
     "nest-asyncio2==1.7.4",
     "networkx==3.7",
     "ninja==1.13.2",
+    "notebook>=7.6.3",
     "numexpr==2.14.2",
     "numpy==2.5.4",
     "ollama==0.6.3",
