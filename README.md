@@ -29,8 +29,8 @@ version and dependencies.
    cp .env.sample .env
    ```
 
-   Then edit `.env` and set `OPENAI_KEY` to your OpenAI (or OpenAI-compatible)
-   API key. `.env` is git-ignored and is loaded automatically at runtime via
+   Then edit `.env` and set `GEMINI_KEY` to your API key.
+   `.env` is git-ignored and is loaded automatically at runtime via
    [`python-dotenv`](https://pypi.org/project/python-dotenv/) — never commit
    it or paste a real key into the notebook or scripts.
 
@@ -45,20 +45,25 @@ without needing to activate it manually.
 
 ## Minimal example
 
-`examples/minimal_llamea_bo.py` is a small, isolated script distilled from
-the notebook. It:
+`examples/min_llamea_gemini.py` and `examples/minimal_llamea_bo.py` are small, isolated scripts distilled from
+the notebook. They:
 
-1. Defines the `AOCCLogger` / `correct_aocc` helpers used to score an
+1. Define the `AOCCLogger` / `correct_aocc` helpers used to score an
    algorithm on a BBOB problem (via `ioh`) with the AOCC metric.
-2. Runs a single LLaMEA outer-loop generation that asks the LLM to generate
-   a `Optimize_with_BO` class, then evaluates it with the AOCC metric.
+2. Run a single LLaMEA outer-loop generation that asks the LLM to generate
+   a `Optimize_with_BO` class, then evaluate it with the AOCC metric.
 
 Run it with:
 
 ```bash
+uv run examples/min_llamea_gemini.py
+```
+
+Or if you are using an OpenAI key:
+```bash
 uv run examples/minimal_llamea_bo.py
 ```
 
-It loads `OPENAI_KEY` from `.env` the same way the notebook does — make sure
+It loads `GEMINI_KEY` (or alternatively `OPENAI_KEY`) from `.env` the same way the notebook does — make sure
 you've completed step 3 above first. This makes one real call to the
 configured LLM, so running it will use your API quota/credits.
