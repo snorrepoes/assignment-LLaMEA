@@ -1,0 +1,66 @@
+No archive path provided, standard initialisation.
+Initializing first population
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:35:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:35:47 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:35:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:35:47 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:35:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:35:47 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:35:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:36:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:36:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:36:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:36:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:36:56 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:36:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:36:59 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:37:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:37:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:57 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:37:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:57 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:37:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:58 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:37:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:37:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:58 INFO Retrying request to /chat/completions in 57.000000 seconds
+2026-11-04 15:38:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:56 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:38:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:57 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:38:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:58 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:38:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:58 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:39:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:39:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:39:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:39:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:39:59 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 15:40:04 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:40:04 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:40:04 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown: {'/loky-4181771-xe2z6m62': 1, '/loky-4181771-7ejrbxhf': 1, '/loky-4181771-hdwldqlk': 1, '/loky-4181771-6x4msg5d': 1, '/loky-4181771-f11_drsz': 1, '/loky-4181771-c2wx623r': 1, '/loky-4181771-_uimlsa4': 1, '/loky-4181771-2gesd8bu': 1, '/loky-4181771-f6o08gom': 1, '/loky-4181771-87kjcqjb': 1}
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 3 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_4181771_875d7b33e7cc424487738dc4083a54ff_8b8e2aac7d12462091a1a1c57e8f2984': 1, '/dev/shm/joblib_memmapping_folder_4181771_ce8f0c4b2cc7422eaba70f861fbb4414_17f0094694a0451391075f4da43e8cc8': 1, '/dev/shm/joblib_memmapping_folder_4181771_875d7b33e7cc424487738dc4083a54ff_cc65014401a44246833aea68eccc34f5': 1}
+  warnings.warn(

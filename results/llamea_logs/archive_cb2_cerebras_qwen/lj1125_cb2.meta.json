@@ -1,0 +1,33 @@
+{
+  "target": "lj1125",
+  "provider": "cerebras",
+  "model": "qwen-3.8-27b",
+  "run_tag": "cb2",
+  "started": "2026-11-04 15:40:13",
+  "llamea_cfg": {
+    "llm_provider": "google_ai_studio",
+    "model": "gemini-3.1-flash-lite",
+    "outer_budget": 100,
+    "n_parents": 4,
+    "n_offspring": 8,
+    "elitism": true,
+    "max_workers": 5,
+    "eval_timeout_s": 7200,
+    "candidate_time_limit_s": 1200,
+    "cerebras_model": "qwen-3.8-27b",
+    "cerebras_reasoning_effort": "low"
+  },
+  "workers": 4,
+  "seeds": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ]
+}

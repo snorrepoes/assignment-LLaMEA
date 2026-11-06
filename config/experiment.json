@@ -1,0 +1,53 @@
+{
+  "group_id": 6,
+  "dim": 6,
+  "seeds": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "n_init": 12,
+  "stage1_budget_evals": 60,
+  "stage2_budget_evals": 600,
+  "llamea": {
+    "llm_provider": "google_ai_studio",
+    "model": "gemini-3.1-flash-lite",
+    "outer_budget": 100,
+    "n_parents": 4,
+    "n_offspring": 8,
+    "elitism": true,
+    "max_workers": 5,
+    "eval_timeout_s": 7200,
+    "candidate_time_limit_s": 1200,
+    "mistral_model": "mistral-large-4",
+    "mistral_reasoning_effort": "medium"
+  },
+  "targets": {
+    "bbob_f21": {
+      "kind": "bbob",
+      "fid": 21,
+      "instance": 1,
+      "f_opt": null,
+      "aocc_regret_bounds": [
+        0.1,
+        100.0
+      ]
+    },
+    "lj1125": {
+      "kind": "practical",
+      "pid": 1125,
+      "f_opt": -1.0,
+      "aocc_regret_bounds": [
+        1e-06,
+        1.0
+      ]
+    }
+  }
+}

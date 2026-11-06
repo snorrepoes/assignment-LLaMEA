@@ -1,0 +1,50 @@
+/opt/work/bo_assignment/results/stage2/bbob_f21/llamea_bbob_f21_seed60.npy 600 evals
+/opt/work/bo_assignment/results/stage2/bbob_f21/llamea_bbob_f21_seed61.npy 600 evals
+/opt/work/bo_assignment/results/stage2/bbob_f21/llamea_bbob_f21_seed62.npy 600 evals
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 203, in _process_chunk
+    return [fn(*args) for args in chunk]
+            ~~^^^^^^^
+  File "/opt/work/bo_assignment/run_benchmark.py", line 34, in job
+    algo = load_class(method, gen_paths)(budget=budget, dim=cfg["dim"], random_seed=seed,
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/opt/work/bo_assignment/run_benchmark.py", line 23, in load_class
+    exec(compile(pathlib.Path(path).read_text(), path, "exec"), ns)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 548, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 539, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/best_bbob_f21_run2_provisional.py'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/work/bo_assignment/run_benchmark.py", line 54, in <module>
+    for path, st in ex.map(job, jobs): print(path, st, flush=True)
+                    ~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 617, in _chain_from_iterable_of_lists
+    for element in iterable:
+                   ^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileNotFoundError: [Errno 2] No such file or directory: 'results/best_bbob_f21_run2_provisional.py'
