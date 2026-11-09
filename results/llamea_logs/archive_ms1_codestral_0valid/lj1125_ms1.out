@@ -1,0 +1,155 @@
+No archive path provided, standard initialisation.
+Initializing first population
+2026-11-04 15:48:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:48:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:48:21 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:22 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+<string>:38: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:249.)
+2026-11-04 15:48:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:48:35 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:36 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:48:36 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:48:38 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+<string>:38: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:249.)
+2026-11-04 15:48:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:46 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:46 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:48:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:49 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:51 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:48:55 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+<string>:38: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:249.)
+2026-11-04 15:49:00 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:02 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:02 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+<string>:38: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:249.)
+2026-11-04 15:49:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:49:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:49:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:17 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:49:17 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:18 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+<string>:38: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:249.)
+2026-11-04 15:49:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:36 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:39 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:49 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:49:58 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:00 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:19 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:20 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:24 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:37 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:38 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:47 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:49 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:51 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:50:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:01 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:01 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:02 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:02 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:22 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:24 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:39 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:39 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:47 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:51:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+Started evolutionary loop, best so far: -inf
+Generation 2, best so far: -inf
+Generation 3, best so far: -inf
+Generation 4, best so far: -inf
+Generation 5, best so far: -inf
+Generation 6, best so far: -inf
+Generation 7, best so far: -inf
+Generation 8, best so far: -inf
+Generation 9, best so far: -inf
+Generation 10, best so far: -inf
+Generation 11, best so far: -inf
+Generation 12, best so far: -inf
+Generation 13, best so far: -inf
+BEST  -inf
+Releasing individual <llamea.solution.Solution object at 0x7f8cec0b4b90>
+Releasing individual <llamea.solution.Solution object at 0x7f2519c7cb90>
+Releasing individual <llamea.solution.Solution object at 0x7f03792acb90>
+Releasing individual <llamea.solution.Solution object at 0x7f6034db0b90>

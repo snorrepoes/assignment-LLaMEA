@@ -1,0 +1,1830 @@
+No archive path provided, standard initialisation.
+Initializing first population
+2026-11-04 16:47:29 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:47:35 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:47:36 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:40 INFO Retrying request to /chat/completions in 0.483494 seconds
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:40 INFO Retrying request to /chat/completions in 0.499390 seconds
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:40 INFO Retrying request to /chat/completions in 0.462981 seconds
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:40 INFO Retrying request to /chat/completions in 0.379411 seconds
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:40 INFO Retrying request to /chat/completions in 0.888107 seconds
+2026-11-04 16:47:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:40 INFO Retrying request to /chat/completions in 0.814367 seconds
+2026-11-04 16:47:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:41 INFO Retrying request to /chat/completions in 0.981168 seconds
+2026-11-04 16:47:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:41 INFO Retrying request to /chat/completions in 0.942846 seconds
+2026-11-04 16:47:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:46 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:46 INFO Retrying request to /chat/completions in 0.439710 seconds
+2026-11-04 16:47:47 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:47 INFO Retrying request to /chat/completions in 0.988204 seconds
+2026-11-04 16:47:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:49 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:49 INFO Retrying request to /chat/completions in 0.413729 seconds
+2026-11-04 16:47:49 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:49 INFO Retrying request to /chat/completions in 0.832538 seconds
+2026-11-04 16:47:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:53 INFO Retrying request to /chat/completions in 0.406073 seconds
+2026-11-04 16:47:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:53 INFO Retrying request to /chat/completions in 0.474717 seconds
+2026-11-04 16:47:54 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:54 INFO Retrying request to /chat/completions in 0.930828 seconds
+2026-11-04 16:47:54 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:54 INFO Retrying request to /chat/completions in 0.998169 seconds
+2026-11-04 16:47:55 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:47:55 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:06 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:06 INFO Retrying request to /chat/completions in 0.459491 seconds
+2026-11-04 16:48:07 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:07 INFO Retrying request to /chat/completions in 0.795702 seconds
+2026-11-04 16:48:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:12 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:12 INFO Retrying request to /chat/completions in 0.472057 seconds
+2026-11-04 16:48:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:13 INFO Retrying request to /chat/completions in 0.803125 seconds
+2026-11-04 16:48:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:13 INFO Retrying request to /chat/completions in 0.399670 seconds
+2026-11-04 16:48:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:14 INFO Retrying request to /chat/completions in 0.819370 seconds
+2026-11-04 16:48:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:14 INFO Retrying request to /chat/completions in 0.498663 seconds
+2026-11-04 16:48:15 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:15 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:15 INFO Retrying request to /chat/completions in 0.866566 seconds
+2026-11-04 16:48:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:36 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:36 INFO Retrying request to /chat/completions in 0.437381 seconds
+2026-11-04 16:48:37 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:37 INFO Retrying request to /chat/completions in 0.845030 seconds
+2026-11-04 16:48:38 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:42 INFO Retrying request to /chat/completions in 0.451942 seconds
+2026-11-04 16:48:43 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:43 INFO Retrying request to /chat/completions in 0.936622 seconds
+2026-11-04 16:48:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:45 INFO Retrying request to /chat/completions in 0.405137 seconds
+2026-11-04 16:48:46 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:48:46 INFO Retrying request to /chat/completions in 0.900839 seconds
+2026-11-04 16:48:47 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:50:49 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:50:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:50:50 INFO Retrying request to /chat/completions in 0.396190 seconds
+2026-11-04 16:50:51 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:50:51 INFO Retrying request to /chat/completions in 0.837467 seconds
+2026-11-04 16:50:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:02 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:02 INFO Retrying request to /chat/completions in 0.388290 seconds
+2026-11-04 16:51:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:03 INFO Retrying request to /chat/completions in 0.752338 seconds
+2026-11-04 16:51:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:17 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:17 INFO Retrying request to /chat/completions in 0.382103 seconds
+2026-11-04 16:51:18 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:18 INFO Retrying request to /chat/completions in 0.858079 seconds
+2026-11-04 16:51:19 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:51:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:33 INFO Retrying request to /chat/completions in 0.380282 seconds
+2026-11-04 16:51:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:33 INFO Retrying request to /chat/completions in 0.868925 seconds
+2026-11-04 16:51:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:39 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:39 INFO Retrying request to /chat/completions in 0.485719 seconds
+2026-11-04 16:51:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:51:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:40 INFO Retrying request to /chat/completions in 0.900472 seconds
+2026-11-04 16:51:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:55 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:55 INFO Retrying request to /chat/completions in 0.486445 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:56 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:56 INFO Retrying request to /chat/completions in 0.913908 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:57 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:57 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:57 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:57 INFO Retrying request to /chat/completions in 0.434170 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:58 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:51:58 INFO Retrying request to /chat/completions in 0.953148 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:51:59 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:52:03 INFO Retrying request to /chat/completions in 0.495221 seconds
+2026-11-04 16:52:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:52:03 INFO Retrying request to /chat/completions in 0.376040 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:52:04 INFO Retrying request to /chat/completions in 0.809691 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:52:04 INFO Retrying request to /chat/completions in 0.957881 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:52:25 INFO Retrying request to /chat/completions in 0.411761 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:52:26 INFO Retrying request to /chat/completions in 0.824493 seconds
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:52:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 16:54:18 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:54:43 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:54:50 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:55:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:55:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:03 INFO Retrying request to /chat/completions in 0.381753 seconds
+2026-11-04 16:55:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:03 INFO Retrying request to /chat/completions in 0.403182 seconds
+2026-11-04 16:55:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:03 INFO Retrying request to /chat/completions in 0.407106 seconds
+2026-11-04 16:55:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:04 INFO Retrying request to /chat/completions in 0.973356 seconds
+2026-11-04 16:55:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:04 INFO Retrying request to /chat/completions in 0.437156 seconds
+2026-11-04 16:55:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:04 INFO Retrying request to /chat/completions in 0.764738 seconds
+2026-11-04 16:55:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:04 INFO Retrying request to /chat/completions in 0.923762 seconds
+2026-11-04 16:55:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:04 INFO Retrying request to /chat/completions in 0.810201 seconds
+2026-11-04 16:55:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:09 INFO Retrying request to /chat/completions in 0.451478 seconds
+2026-11-04 16:55:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:10 INFO Retrying request to /chat/completions in 0.988428 seconds
+2026-11-04 16:55:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:13 INFO Retrying request to /chat/completions in 0.414709 seconds
+2026-11-04 16:55:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:13 INFO Retrying request to /chat/completions in 0.918173 seconds
+2026-11-04 16:55:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:16 INFO Retrying request to /chat/completions in 0.392949 seconds
+2026-11-04 16:55:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:16 INFO Retrying request to /chat/completions in 0.376520 seconds
+2026-11-04 16:55:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:16 INFO Retrying request to /chat/completions in 0.933601 seconds
+2026-11-04 16:55:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:16 INFO Retrying request to /chat/completions in 0.988958 seconds
+2026-11-04 16:55:17 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:18 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:26 INFO Retrying request to /chat/completions in 0.420258 seconds
+2026-11-04 16:55:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:26 INFO Retrying request to /chat/completions in 0.906945 seconds
+2026-11-04 16:55:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:30 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:30 INFO Retrying request to /chat/completions in 0.375490 seconds
+2026-11-04 16:55:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:31 INFO Retrying request to /chat/completions in 0.381374 seconds
+2026-11-04 16:55:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:31 INFO Retrying request to /chat/completions in 0.964361 seconds
+2026-11-04 16:55:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:31 INFO Retrying request to /chat/completions in 0.901334 seconds
+2026-11-04 16:55:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:41 INFO Retrying request to /chat/completions in 0.454392 seconds
+2026-11-04 16:55:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:55:41 INFO Retrying request to /chat/completions in 0.977530 seconds
+2026-11-04 16:55:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:57:23 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 16:57:57 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:57:57 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:57:57 INFO Retrying request to /chat/completions in 0.472939 seconds
+2026-11-04 16:57:58 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:57:58 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:57:58 INFO Retrying request to /chat/completions in 0.838581 seconds
+2026-11-04 16:57:58 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:57:58 INFO Retrying request to /chat/completions in 0.392944 seconds
+2026-11-04 16:57:59 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:57:59 INFO Retrying request to /chat/completions in 0.820911 seconds
+2026-11-04 16:57:59 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:00 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 16:58:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:08 INFO Retrying request to /chat/completions in 0.385612 seconds
+2026-11-04 16:58:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:09 INFO Retrying request to /chat/completions in 0.800615 seconds
+2026-11-04 16:58:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:09 INFO Retrying request to /chat/completions in 0.491900 seconds
+2026-11-04 16:58:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:10 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:10 INFO Retrying request to /chat/completions in 0.961337 seconds
+2026-11-04 16:58:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 16:58:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:13 INFO Retrying request to /chat/completions in 0.417838 seconds
+2026-11-04 16:58:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:14 INFO Retrying request to /chat/completions in 0.905993 seconds
+2026-11-04 16:58:15 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 16:58:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:26 INFO Retrying request to /chat/completions in 0.483135 seconds
+2026-11-04 16:58:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:27 INFO Retrying request to /chat/completions in 0.472527 seconds
+2026-11-04 16:58:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:27 INFO Retrying request to /chat/completions in 0.800081 seconds
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 16:58:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:28 INFO Retrying request to /chat/completions in 0.770451 seconds
+2026-11-04 16:58:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:34 INFO Retrying request to /chat/completions in 0.384363 seconds
+2026-11-04 16:58:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:34 INFO Retrying request to /chat/completions in 0.805749 seconds
+2026-11-04 16:58:35 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 16:58:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:40 INFO Retrying request to /chat/completions in 0.392838 seconds
+2026-11-04 16:58:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:58:41 INFO Retrying request to /chat/completions in 0.984130 seconds
+2026-11-04 16:58:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 16:59:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:59:04 INFO Retrying request to /chat/completions in 0.459524 seconds
+2026-11-04 16:59:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 16:59:04 INFO Retrying request to /chat/completions in 0.771925 seconds
+2026-11-04 16:59:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 17:01:17 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:01:20 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:01:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:02:30 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:02:30 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:30 INFO Retrying request to /chat/completions in 0.424360 seconds
+2026-11-04 17:02:30 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:30 INFO Retrying request to /chat/completions in 0.441939 seconds
+2026-11-04 17:02:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:31 INFO Retrying request to /chat/completions in 0.421497 seconds
+2026-11-04 17:02:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:31 INFO Retrying request to /chat/completions in 0.917991 seconds
+2026-11-04 17:02:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:31 INFO Retrying request to /chat/completions in 0.945173 seconds
+2026-11-04 17:02:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:31 INFO Retrying request to /chat/completions in 0.381373 seconds
+2026-11-04 17:02:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:31 INFO Retrying request to /chat/completions in 0.777878 seconds
+2026-11-04 17:02:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:32 INFO Retrying request to /chat/completions in 0.868649 seconds
+2026-11-04 17:02:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:36 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:36 INFO Retrying request to /chat/completions in 0.453549 seconds
+2026-11-04 17:02:37 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:37 INFO Retrying request to /chat/completions in 0.968185 seconds
+2026-11-04 17:02:38 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:42 INFO Retrying request to /chat/completions in 0.445821 seconds
+2026-11-04 17:02:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:42 INFO Retrying request to /chat/completions in 0.433982 seconds
+2026-11-04 17:02:43 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:43 INFO Retrying request to /chat/completions in 0.997271 seconds
+2026-11-04 17:02:43 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:43 INFO Retrying request to /chat/completions in 0.994486 seconds
+2026-11-04 17:02:43 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:43 INFO Retrying request to /chat/completions in 0.401494 seconds
+2026-11-04 17:02:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:44 INFO Retrying request to /chat/completions in 0.783826 seconds
+2026-11-04 17:02:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:44 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:52 INFO Retrying request to /chat/completions in 0.481580 seconds
+2026-11-04 17:02:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:02:52 INFO Retrying request to /chat/completions in 0.820032 seconds
+2026-11-04 17:02:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:00 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:00 INFO Retrying request to /chat/completions in 0.396395 seconds
+2026-11-04 17:03:00 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:00 INFO Retrying request to /chat/completions in 0.858239 seconds
+2026-11-04 17:03:01 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:04 INFO Retrying request to /chat/completions in 0.384456 seconds
+2026-11-04 17:03:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:05 INFO Retrying request to /chat/completions in 0.881756 seconds
+2026-11-04 17:03:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:05 INFO Retrying request to /chat/completions in 0.390806 seconds
+2026-11-04 17:03:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:05 INFO Retrying request to /chat/completions in 0.820600 seconds
+2026-11-04 17:03:06 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:03:06 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:05:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:05:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:05:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:13 INFO Retrying request to /chat/completions in 0.494057 seconds
+2026-11-04 17:05:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:14 INFO Retrying request to /chat/completions in 0.377220 seconds
+2026-11-04 17:05:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:14 INFO Retrying request to /chat/completions in 0.838594 seconds
+2026-11-04 17:05:14 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:14 INFO Retrying request to /chat/completions in 0.936876 seconds
+2026-11-04 17:05:15 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:16 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:22 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:22 INFO Retrying request to /chat/completions in 0.420626 seconds
+2026-11-04 17:05:23 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:23 INFO Retrying request to /chat/completions in 0.894087 seconds
+2026-11-04 17:05:23 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:23 INFO Retrying request to /chat/completions in 0.450310 seconds
+2026-11-04 17:05:24 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:24 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:24 INFO Retrying request to /chat/completions in 0.931582 seconds
+2026-11-04 17:05:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:05:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:33 INFO Retrying request to /chat/completions in 0.482256 seconds
+2026-11-04 17:05:33 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:33 INFO Retrying request to /chat/completions in 0.751607 seconds
+2026-11-04 17:05:34 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:39 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:39 INFO Retrying request to /chat/completions in 0.464232 seconds
+2026-11-04 17:05:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:40 INFO Retrying request to /chat/completions in 0.950995 seconds
+2026-11-04 17:05:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:40 INFO Retrying request to /chat/completions in 0.377794 seconds
+2026-11-04 17:05:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:40 INFO Retrying request to /chat/completions in 0.957565 seconds
+2026-11-04 17:05:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:45 INFO Retrying request to /chat/completions in 0.427886 seconds
+2026-11-04 17:05:45 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:05:45 INFO Retrying request to /chat/completions in 0.949587 seconds
+2026-11-04 17:05:46 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:03 INFO Retrying request to /chat/completions in 0.416487 seconds
+2026-11-04 17:06:03 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:03 INFO Retrying request to /chat/completions in 0.774402 seconds
+2026-11-04 17:06:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:05 INFO Retrying request to /chat/completions in 0.473625 seconds
+2026-11-04 17:06:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:05 INFO Retrying request to /chat/completions in 0.770130 seconds
+2026-11-04 17:06:06 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:28 INFO Retrying request to /chat/completions in 0.390887 seconds
+2026-11-04 17:06:28 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:28 INFO Retrying request to /chat/completions in 0.871698 seconds
+2026-11-04 17:06:29 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:06:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:08:12 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:09:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:09:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:09:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:40 INFO Retrying request to /chat/completions in 0.497967 seconds
+2026-11-04 17:09:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:40 INFO Retrying request to /chat/completions in 0.484676 seconds
+2026-11-04 17:09:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:40 INFO Retrying request to /chat/completions in 0.487092 seconds
+2026-11-04 17:09:40 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:40 INFO Retrying request to /chat/completions in 0.486281 seconds
+2026-11-04 17:09:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:41 INFO Retrying request to /chat/completions in 0.806368 seconds
+2026-11-04 17:09:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:41 INFO Retrying request to /chat/completions in 0.903179 seconds
+2026-11-04 17:09:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:41 INFO Retrying request to /chat/completions in 0.783507 seconds
+2026-11-04 17:09:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:41 INFO Retrying request to /chat/completions in 0.939674 seconds
+2026-11-04 17:09:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:41 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:42 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:51 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:51 INFO Retrying request to /chat/completions in 0.491834 seconds
+2026-11-04 17:09:51 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:51 INFO Retrying request to /chat/completions in 0.407802 seconds
+2026-11-04 17:09:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:52 INFO Retrying request to /chat/completions in 0.781763 seconds
+2026-11-04 17:09:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:52 INFO Retrying request to /chat/completions in 0.476662 seconds
+2026-11-04 17:09:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:52 INFO Retrying request to /chat/completions in 0.970276 seconds
+2026-11-04 17:09:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:53 INFO Retrying request to /chat/completions in 0.751261 seconds
+2026-11-04 17:09:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:53 INFO Retrying request to /chat/completions in 0.428591 seconds
+2026-11-04 17:09:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:53 INFO Retrying request to /chat/completions in 0.953544 seconds
+2026-11-04 17:09:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:09:54 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:06 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:06 INFO Retrying request to /chat/completions in 0.455337 seconds
+2026-11-04 17:10:07 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:07 INFO Retrying request to /chat/completions in 0.427439 seconds
+2026-11-04 17:10:07 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:07 INFO Retrying request to /chat/completions in 0.820152 seconds
+2026-11-04 17:10:07 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:07 INFO Retrying request to /chat/completions in 0.782126 seconds
+2026-11-04 17:10:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:08 INFO Retrying request to /chat/completions in 0.444884 seconds
+2026-11-04 17:10:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:10:08 INFO Retrying request to /chat/completions in 0.898311 seconds
+2026-11-04 17:10:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:11:52 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:12:04 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:12:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:05 INFO Retrying request to /chat/completions in 0.463596 seconds
+2026-11-04 17:12:05 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:05 INFO Retrying request to /chat/completions in 0.889021 seconds
+2026-11-04 17:12:06 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:11 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:11 INFO Retrying request to /chat/completions in 0.431034 seconds
+2026-11-04 17:12:12 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:12 INFO Retrying request to /chat/completions in 0.907353 seconds
+2026-11-04 17:12:13 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:23 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:12:23 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:23 INFO Retrying request to /chat/completions in 0.453905 seconds
+2026-11-04 17:12:24 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:24 INFO Retrying request to /chat/completions in 0.936613 seconds
+2026-11-04 17:12:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:25 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:25 INFO Retrying request to /chat/completions in 0.389918 seconds
+2026-11-04 17:12:26 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:26 INFO Retrying request to /chat/completions in 0.903676 seconds
+2026-11-04 17:12:27 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:30 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:30 INFO Retrying request to /chat/completions in 0.410512 seconds
+2026-11-04 17:12:31 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:31 INFO Retrying request to /chat/completions in 0.964408 seconds
+2026-11-04 17:12:32 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:46 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:12:47 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:47 INFO Retrying request to /chat/completions in 0.425350 seconds
+2026-11-04 17:12:47 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:47 INFO Retrying request to /chat/completions in 0.760374 seconds
+2026-11-04 17:12:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:53 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:53 INFO Retrying request to /chat/completions in 0.380985 seconds
+2026-11-04 17:12:54 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:54 INFO Retrying request to /chat/completions in 0.794707 seconds
+2026-11-04 17:12:55 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:55 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:55 INFO Retrying request to /chat/completions in 0.385885 seconds
+2026-11-04 17:12:56 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:56 INFO Retrying request to /chat/completions in 0.752398 seconds
+2026-11-04 17:12:57 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:59 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:12:59 INFO Retrying request to /chat/completions in 0.482397 seconds
+2026-11-04 17:13:00 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:13:00 INFO Retrying request to /chat/completions in 0.801058 seconds
+2026-11-04 17:13:01 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:13:07 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:13:07 INFO Retrying request to /chat/completions in 0.406234 seconds
+2026-11-04 17:13:08 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:13:08 INFO Retrying request to /chat/completions in 0.777407 seconds
+2026-11-04 17:13:09 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 17:13:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:14:43 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:15:17 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 17:15:48 INFO HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 536, in initialize_single
+    new_individual = self.llm.sample_solution(session_messages, HPO=self.HPO)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+Releasing individual <llamea.solution.Solution object at 0x7f89cd079d10>
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 536, in initialize_single
+    new_individual = self.llm.sample_solution(session_messages, HPO=self.HPO)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+Releasing individual <llamea.solution.Solution object at 0x7f5755809d10>
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 536, in initialize_single
+    new_individual = self.llm.sample_solution(session_messages, HPO=self.HPO)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+Releasing individual <llamea.solution.Solution object at 0x7f4f38f99d10>
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+An exception occured: Traceback (most recent call last):
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llamea.py", line 1171, in _evolve_solution
+    evolved_individual = self.llm.sample_solution(
+        new_prompt,
+    ...<3 lines>...
+        diff_mode=self.diff_mode,
+    )
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 167, in sample_solution
+    code = self.extract_algorithm_code(message)
+  File "/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/llamea/llm.py", line 239, in extract_algorithm_code
+    raise NoCodeException
+llamea.utils.NoCodeException
+.
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 7 leaked semlock objects to clean up at shutdown: {'/loky-407133-0f1_bxsb': 1, '/loky-407133-yrf84xx3': 1, '/loky-407133-i126wpwk': 1, '/loky-407133-1foeoyj0': 1, '/loky-407133-y7uexcbs': 1, '/loky-407133-et_rgfjf': 1, '/loky-407133-ulsinscv': 1}
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 6 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_407133_ea3f7903d787414890070bedbead2f36_08e85dbf52a14605bd0ed818feb699b2': 1, '/dev/shm/joblib_memmapping_folder_407133_731798b039d2492f81f2e101e715d345_bb20815020cd4f31b7ea4b31e1038e07': 1, '/dev/shm/joblib_memmapping_folder_407133_2a8093de32eb4288adddd8f16d353575_3cd47011531f462393832b1314144c9e': 1, '/dev/shm/joblib_memmapping_folder_407133_d2402411e85444e7a55ed1257418761e_b80055b317b8425ba7ac732bf855d000': 1, '/dev/shm/joblib_memmapping_folder_407133_59209a78775b485ca44894f74e347c9d_a9814b3bba9742fe8010889cd4c8a674': 1, '/dev/shm/joblib_memmapping_folder_407133_ea3f7903d787414890070bedbead2f36_47f6738c105b4bbe8f438c894a4d48bf': 1}
+  warnings.warn(

@@ -1,0 +1,72 @@
+No archive path provided, standard initialisation.
+Initializing first population
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:34:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:34:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:34:49 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:35:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:35:47 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:35:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:35:47 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:35:48 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:35:48 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:36:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:36:47 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:36:49 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:36:53 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:37:01 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+2026-11-04 15:37:02 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:02 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:37:02 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:02 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:37:03 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:03 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:37:03 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 15:37:06 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:37:06 INFO Retrying request to /chat/completions in 55.000000 seconds
+2026-11-04 15:38:01 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:01 INFO Retrying request to /chat/completions in 54.000000 seconds
+2026-11-04 15:38:03 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:03 INFO Retrying request to /chat/completions in 52.000000 seconds
+2026-11-04 15:38:03 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:03 INFO Retrying request to /chat/completions in 52.000000 seconds
+2026-11-04 15:38:03 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:03 INFO Retrying request to /chat/completions in 52.000000 seconds
+2026-11-04 15:38:55 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:55 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:55 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:38:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:38:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:38:58 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:38:59 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:39:02 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:39:03 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:39:03 INFO Retrying request to /chat/completions in 52.000000 seconds
+2026-11-04 15:39:04 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:39:04 INFO Retrying request to /chat/completions in 51.000000 seconds
+2026-11-04 15:39:55 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:39:55 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:39:56 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown: {'/loky-4181772-hyaij3h5': 1, '/loky-4181772-e3xvom4r': 1, '/loky-4181772-hz1x4zb2': 1, '/loky-4181772-sg4aogle': 1, '/loky-4181772-5hanoiqi': 1, '/loky-4181772-yax85cjm': 1, '/loky-4181772-ruk6c6x5': 1, '/loky-4181772-pbqoy8kb': 1, '/loky-4181772-rn11_9qv': 1, '/loky-4181772-ax3zvqxv': 1}
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 3 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_4181772_80b7c6293c0f4a9ca4ebc75d6d5d913f_4657197c878148e491f0d9bba6dd1eb8': 1, '/dev/shm/joblib_memmapping_folder_4181772_115bc4a115f148b4bd56ce87c85feb18_27929dc0a21942ca9f82d2f98e670d65': 1, '/dev/shm/joblib_memmapping_folder_4181772_80b7c6293c0f4a9ca4ebc75d6d5d913f_f327fda2559f49b4820c780fffb492a8': 1}
+  warnings.warn(

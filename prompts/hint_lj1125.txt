@@ -1,0 +1,1 @@
+Hint about the kind of landscape: the objective values can span many orders of magnitude and most of the search space is an almost flat plateau (differences of order 1e-8 or smaller) in which a narrow, deep well is hidden. Consider transforming/standardizing the objective values before fitting the surrogate and sharing exploration across the whole domain.

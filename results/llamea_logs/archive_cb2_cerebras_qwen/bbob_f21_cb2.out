@@ -1,0 +1,66 @@
+No archive path provided, standard initialisation.
+Initializing first population
+2026-11-04 15:40:23 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:40:24 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:25 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+2026-11-04 15:40:25 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/botorch/models/utils/assorted.py:276: InputDataWarning: Data (input features) is not contained to the unit cube. Please consider min-max scaling the input data.
+  check_min_max_scaling(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:40:30 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:32 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:33 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:40:37 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:37 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:40:38 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:39 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:42 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:40:53 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+<string>:77: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+2026-11-04 15:40:53 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:40:53 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:40:57 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:41:01 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:41:01 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/boa/initial_design.py:7: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  u = qmc.Sobol(d=dim, scramble=True, seed=seed).random(n)
+2026-11-04 15:41:02 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:41:02 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:41:02 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:41:02 INFO Retrying request to /chat/completions in 59.000000 seconds
+2026-11-04 15:41:06 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:41:14 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:42:01 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:42:01 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:42:01 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-11-04 15:42:01 INFO Retrying request to /chat/completions in 60.000000 seconds
+2026-11-04 15:42:04 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:43:07 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 15:43:09 INFO HTTP Request: POST https://api.cerebras.ai/v1/chat/completions "HTTP/1.1 200 OK"
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 10 leaked semlock objects to clean up at shutdown: {'/loky-21545-1jkff_ig': 1, '/loky-21545-9w2418h7': 1, '/loky-21545-fidsaww7': 1, '/loky-21545-0bxldi_6': 1, '/loky-21545-cmzz3ctv': 1, '/loky-21545-biprouud': 1, '/loky-21545-2e7nct7j': 1, '/loky-21545-1qy3c5jy': 1, '/loky-21545-q41xq8sv': 1, '/loky-21545-ovoc8691': 1}
+  warnings.warn(
+/opt/work/bo_assignment/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/resource_tracker.py:444: UserWarning: resource_tracker: There appear to be 5 leaked folder objects to clean up at shutdown: {'/dev/shm/joblib_memmapping_folder_21545_56b160317cbb4031998f8576e6013ad7_62cb622935094a7e86a57fdb8af11057': 1, '/dev/shm/joblib_memmapping_folder_21545_e44d90c58f4347da99ec3d04e6e3e58c_107a22b76b504abdab21c73ad516c022': 1, '/dev/shm/joblib_memmapping_folder_21545_77c3f127a67b48b6a5535463c8e3047b_8f1aa4c70b524c39921bb643e2e1aa1a': 1, '/dev/shm/joblib_memmapping_folder_21545_c4c1ef2d9a404b5d888ea52253034ca0_3c5df5dfdd1c438b812e142c3b9296f2': 1, '/dev/shm/joblib_memmapping_folder_21545_56b160317cbb4031998f8576e6013ad7_511edaa58e824fe9ae531d37986cebc5': 1}
+  warnings.warn(
