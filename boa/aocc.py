@@ -1,4 +1,5 @@
-"""Area Over the Convergence Curve on log-scaled regret (higher = better, in [0,1])."""
+"""Area Over the Convergence Curve on log-scaled regret (higher = better, in [0,1]).
+AOCC after the LLaMEA-BO paper (Li, van Stein, Baeck, Raponi, GECCO'26); regret bounds are our own choice."""
 import numpy as np
 
 

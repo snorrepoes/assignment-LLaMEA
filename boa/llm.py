@@ -1,6 +1,7 @@
 """Gemini wrapper with patient retries. LLaMEA's built-in Gemini_LLM gives up after 5 short retries,
 which turns transient 503/429 errors into wasted candidates; here such errors are retried with
-exponential backoff + jitter and do not consume LLaMEA's budget."""
+exponential backoff + jitter and do not consume LLaMEA's budget.
+Subclasses LLaMEA's Gemini_LLM / OpenAI_LLM (https://github.com/XAI-liacs/LLaMEA, van Stein & Baeck 2025); only the retry logic is new."""
 import random, time
 from llamea.llm import Gemini_LLM
 

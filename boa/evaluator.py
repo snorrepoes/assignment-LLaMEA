@@ -1,4 +1,5 @@
-"""LLaMEA fitness function: runs a candidate Optimize_with_BO on one target for all seeds."""
+"""LLaMEA fitness function: runs a candidate Optimize_with_BO on one target for all seeds.
+Follows the LLaMEA fitness-function pattern (https://github.com/XAI-liacs/LLaMEA) and uses llamea.utils; AOCC after the LLaMEA-BO paper (Li et al., GECCO'26)."""
 import os, signal, traceback
 import numpy as np
 from boa.problems import load_config, make_recorder, BudgetExhausted

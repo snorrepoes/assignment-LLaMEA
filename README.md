@@ -173,5 +173,25 @@ Script and raw output: `results/sign_check/`. Three seeds only, so it is anecdot
 
 ## 10. Repository layout
 `boa/` problems, AOCC, evaluator, LLM wrapper · `baselines/` CMA-ES and BoTorch BO · `run_llamea.py` · `run_benchmark.py` ·
-`make_plots.py` · `make_extra_plots.py` · `prompts/` · `config/` · `results/` (logs, raw per-run values, figures). Reused external code is credited
-in file headers (pycma, BoTorch tutorials, LLaMEA, the instructors' `Practical_Problems` and sample task prompt).
+`make_plots.py` · `make_extra_plots.py` · `prompts/` · `config/` · `results/` (logs, raw per-run values, figures). Reused external code and AI assistance are
+described in section 11.
+
+## 11. Use of AI assistance and attribution of external code
+
+**AI disclosure.** Claude Code (Anthropic's AI coding assistant) was used to set up the outlines for the experiments (pipeline, configuration, evaluation and benchmarking scripts), to aid in plot generation, and for stylistic rephrasing of the text. This included drafting the code of those scripts. The conclusions drawn from the results are made and verified by the authors.
+
+**Free LLMs only.** The LLM inside LLaMEA is Gemini (`gemini-3.1-flash-lite`, free tier); no paid model was used for the generated algorithms.
+
+**External code and material** (no third-party source code was copied verbatim; the following were used as libraries, specifications or starting points):
+
+| item | how it is used | source |
+|---|---|---|
+| LLaMEA (`llamea` package) | search framework; `boa/llm.py` subclasses its `Gemini_LLM` / `OpenAI_LLM` to add retries, `boa/evaluator.py` uses its `prepare_namespace` and `clean_local_namespace` helpers | https://github.com/XAI-liacs/LLaMEA (van Stein & Bäck, 2025) |
+| Instructors' sample task prompt and logs | `prompts/base_task.txt` is a rewritten version of the sample prompt in `sample_LLaMEA_logs/`; two sentences are kept verbatim ("The function should return the tuple best_f, best_x …", "Do not use any other optimization libraries."). Log layout is LLaMEA's | https://github.com/BayesOptApp/BO_Course_Assignment |
+| AOCC definition | implemented in `boa/aocc.py` following the definition in the LLaMEA-BO paper (bounds are our own choice) | Li, van Stein, Bäck, Raponi, GECCO '26 |
+| `Practical_Problems`, IOHexperimenter | problem 1125 (Lennard-Jones) and BBOB f21 | https://github.com/BayesOptApp/Practical_Problems, https://github.com/IOHprofiler/IOHexperimenter |
+| pycma | CMA-ES baseline (`baselines/cmaes.py`) | https://github.com/CMA-ES/pycma (Hansen et al., 2019) |
+| BoTorch / GPyTorch | BO baseline (`baselines/botorch_bo.py`, following the patterns in the BoTorch tutorials) and the surrogate/acquisition of the generated algorithms | https://botorch.org, https://gpytorch.ai |
+| SciPy | scrambled Sobol initial design (`boa/initial_design.py`) | https://scipy.org |
+| Generated algorithms | `results/best_*_run2.py` are output of the Gemini model inside LLaMEA, not written by the authors; they are analysed in section 8 | this repository's logs |
+
