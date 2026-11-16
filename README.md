@@ -172,9 +172,35 @@ Script and raw output: `results/sign_check/`. Three seeds only, so it is anecdot
 - **Search budget.** Searches stopped at 68/76 candidates (the limit of 100 is a maximum) because of the free-tier quota, one search per target, so there is no estimate of how much the result depends on the random search trajectory.
 
 ## 10. Repository layout
-`boa/` problems, AOCC, evaluator, LLM wrapper · `baselines/` CMA-ES and BoTorch BO · `run_llamea.py` · `run_benchmark.py` ·
-`make_plots.py` · `make_extra_plots.py` · `prompts/` · `config/` · `results/` (logs, raw per-run values, figures). Reused external code and AI assistance are
-described in section 11.
+
+```text
+.
+├── config/experiment.json        all settings (seeds 60–69, d=6, budgets, LLaMEA and AOCC parameters)
+├── prompts/                      task prompt + one landscape hint per target
+├── boa/                          problems and budget wrapper, AOCC, Sobol design, LLaMEA evaluator, LLM wrapper
+├── baselines/                    CMA-ES and BoTorch BO
+├── run_llamea.py                 Stage 1: one LLaMEA search per target
+├── run_benchmark.py              Stage 2: all methods x problems x seeds (resumable)
+├── make_plots.py                 convergence plots, search curves, summary table
+├── make_extra_plots.py           additional figures
+├── results/
+│   ├── best_*_run2.py            selected generated algorithms
+│   ├── stage2/                   raw f-values, one .npy per method, problem and seed
+│   ├── llamea_logs/              final searches (exp-*) and earlier attempts (archive_*)
+│   ├── figures/                  all figures + summary.md
+│   └── sign_check/               objective-sign check of the LJ algorithm (section 8.2)
+├── requirements.txt, pyproject.toml, uv.lock   environment (section 1)
+├── examples/, *.ipynb            minimal LLaMEA examples from the course setup, not used for results
+└── .env.example, .env.sample     API-key templates (the real `.env` is not committed)
+```
+
+| to reproduce | command |
+|---|---|
+| Stage 1 | `uv run --locked python run_llamea.py bbob_f21 --run-tag run2` (and `lj1125`) |
+| Stage 2 | `uv run --locked python run_benchmark.py --gen bbob_f21=results/best_bbob_f21_run2.py --gen lj1125=results/best_lj1125_run2.py` |
+| figures | `uv run --locked python make_plots.py && uv run --locked python make_extra_plots.py` |
+
+Reused external code and AI assistance: section 11.
 
 ## 11. Use of AI assistance and attribution of external code
 
