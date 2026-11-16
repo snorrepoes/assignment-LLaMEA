@@ -78,14 +78,37 @@ Stage 2: 600 evaluations, seeds 60–69, shared 12-point Sobol start. Final best
 | BBOB f21 (d=6) | 5.91 ± 1.7 | **1.37 ± 0.31** | 3.62 ± 0.86 | 7.49 ± 2.4 |
 | LJ 1125 (d=6, regret = f + 1) | 6.3e-5 ± 3.5e-5 | 0.48 ± 0.13 | 6.6e-2 ± 2.1e-2 | **5.0e-6 ± 1.8e-6** |
 
-Convergence plots (mean ± s.e., log y): `convergence_bbob_f21.png`, `convergence_lj1125.png`; search progress: `llamea_search_convergence.png`.
+Convergence curves (mean ± standard error over 10 seeds, log y):
+
+![f21 convergence](results/figures/convergence_bbob_f21.png)
+![LJ convergence](results/figures/convergence_lj1125.png)
+
+Means hide a lot on these two problems (both are "found the peak / did not find it"), so the figures below show every seed:
+
+![final regret per seed](results/figures/final_regret_distribution.png)
+![individual runs](results/figures/individual_runs.png)
+![success rate](results/figures/success_rate.png)
 
 Observations:
-- **LJ:** the algorithm generated on LJ is best, about 12× lower regret than CMA-ES, and it is the only method that reliably finds the narrow well early (first big drop at about 180 evaluations). Plain BoTorch BO rarely finds the well because the objective is flat almost everywhere, so the GP has nothing to model. The algorithm generated on f21 only partly transfers (0.066).
-- **f21:** plain BoTorch BO is best. The f21-generated algorithm is much faster in the first 50–100 evaluations (the setting it was selected on, 60 evaluations) but stagnates at about 3.6 from roughly evaluation 150, while BoTorch BO keeps improving. CMA-ES is slow at d=6 with this budget. The LJ-generated algorithm transfers poorly to f21.
-- Specialisation is visible: each generated algorithm is better on its own target than on the other one, and on LJ the specialised algorithm beats both baselines. On f21 the generated algorithm beats CMA-ES but not the BoTorch baseline, so the LLM search did not beat a standard BO there at 600 evaluations.
+- **LJ:** the algorithm generated on LJ is best: mean final regret 5.0e-6 vs 6.3e-5 for CMA-ES (about 12× lower; by median 2.7e-6 vs 2.0e-5, about 7×). It is also much faster: all 10 runs reach regret ≤ 0.01 (the well), 9 of them within 90 evaluations (median about 60); CMA-ES reaches it in all 10 runs but only after 206–330 evaluations. Plain BoTorch BO reaches it in only 2/10 runs, because the objective is flat almost everywhere and the GP has nothing to model; the f21-generated algorithm reaches it in 4/10 runs. The slow late step in the mean curve (around evaluation 185) is a single slow seed, not the typical behaviour.
+- **f21:** plain BoTorch BO is best by mean (1.37) and median (1.84; generated-on-f21 median 2.37, CMA-ES 5.5, generated-on-LJ 5.0). The f21 landscape is bimodal in outcome: in 2/10 CMA-ES runs and 3/10 BoTorch runs the best peak was found (regret < 0.1), against 1/10 for the f21-generated algorithm and 0/10 for the LJ-generated one; all other runs stay at regret 1–30. Means are therefore sensitive to a few seeds. The f21-generated algorithm is clearly fastest in the first 50–100 evaluations (the setting it was selected on) but then stagnates, while BoTorch BO keeps improving.
+- Specialisation is visible: each generated algorithm is better on its own target than on the other one. On LJ the specialised algorithm beats both baselines; on f21 the generated algorithm beats CMA-ES but not the BoTorch baseline, so the LLM search did not beat a standard BO there at 600 evaluations.
 
-Search statistics (Gemini free tier, `gemini-3.1-flash-lite`): the daily quota (500 requests) stopped both searches early, at 68 (f21) and 76 (LJ) logged candidates instead of the allowed 100. The best candidates are therefore the best of fewer than 100. Best 60-evaluation AOCC: f21 0.277 (generation 7; plain BoTorch reference 0.223), LJ 0.107 (generation 2; reference 0.004). AOCC bounds are our own choice (f21 regret [0.1, 100]; LJ regret [1e-6, 1]), so values are not comparable to published numbers. Four f21 candidates hit the 20-minute candidate time limit (scored −inf).
+![early budget](results/figures/early_budget_zoom.png)
+*First 100 evaluations (Stage-1 selection used 60): the f21-generated algorithm leads there, but the lead disappears later. On LJ the LJ-generated algorithm leads from about evaluation 30 on.*
+
+![generalization heatmap](results/figures/generalization_heatmap.png)
+*Mean final regret per method and problem (darker = worse within a problem). The off-diagonal cells show the transfer of each generated algorithm to the other problem.*
+
+LLaMEA search progress (Stage 1): best AOCC so far per candidate, failed candidates (no score) marked, failure causes, and AOCC per generation.
+
+![LLaMEA search convergence](results/figures/llamea_search_convergence.png)
+![failure causes](results/figures/llamea_failure_causes.png)
+![AOCC per generation](results/figures/llamea_aocc_by_generation.png)
+
+Figures are produced by `make_plots.py` (convergence, summary table, search curves) and `make_extra_plots.py` (all others) from the stored raw results.
+
+Search statistics (Gemini free tier, `gemini-3.1-flash-lite`): the daily quota (500 requests) stopped both searches early, at 68 (f21) and 76 (LJ) logged candidates. The assignment sets 100 as a maximum ("a maximum of 100 candidate algorithms"), so this is within the rules, but the best candidates are the best of fewer than 100 and a larger search might have found better ones. Best 60-evaluation AOCC: f21 0.277 (generation 7; plain BoTorch reference 0.223), LJ 0.107 (generation 2; reference 0.004). AOCC bounds are our own choice (f21 regret [0.1, 100]; LJ regret [1e-6, 1]), so values are not comparable to published numbers. Four f21 candidates hit the 20-minute candidate time limit (scored −inf). In `llamea_search_convergence.png`, grey crosses mark candidates that failed and have no score (f21: 32 of 68, LJ: 29 of 76; mostly code written for BoTorch/GPyTorch APIs that do not exist in the installed versions, plus failed model fits and timeouts); the red best-so-far line starts at 0 until the first valid candidate.
 
 Provider history (all free-only, logs archived in `results/llamea_logs/archive_*`): a first Gemini run crashed when a candidate exceeded LLaMEA's own timeout (fixed by an in-evaluator time limit, then restarted as run2); Cerebras (gpt-oss-120b, Qwen) was abandoned after it stopped being free; Mistral codestral produced 0 valid candidates out of 200 (100 per target, verified from `log.jsonl`; outdated BoTorch API in its code); mistral-large-4 had very low yield and was stopped. The final results use only Gemini.
 
@@ -142,13 +165,13 @@ Script and raw output: `results/sign_check/`. Three seeds only, so it is anecdot
 ## 9. Generalization discussion
 
 - **Seed overfitting.** Candidates were selected by AOCC on seeds 60–69, which are the same seeds used in Stage 2. The Stage 2 numbers of the generated algorithms on their own target are therefore optimistically biased (selection on the evaluation seeds, and a best-of-68/76 selection). The comparison against CMA-ES and BoTorch BO, which were not tuned on these seeds, favours the generated algorithms. A held-out seed set would be the fix; we did not run one.
-- **Budget mismatch.** Selection used 60 evaluations, Stage 2 uses 600. The f21 algorithm is excellent at 60 and stagnates later; it is tuned for short budgets. The LJ algorithm needed about 180 evaluations to find the well in Stage 2, i.e. beyond the selection budget, so what was selected at 60 evaluations (AOCC 0.107) is only partly what is rewarded at 600.
+- **Budget mismatch.** Selection used 60 evaluations, Stage 2 uses 600. The f21 algorithm is excellent at 60 and stagnates later; it is tuned for short budgets, and plain BoTorch BO overtakes it after about 100 evaluations. For the LJ algorithm the mismatch is smaller: about half of its runs (5/10) had already found the well by evaluation 60, and 9/10 by 90, so the selection signal at 60 evaluations (AOCC 0.107) was meaningful, but the final regret (about 1e-5) is decided in the later, local-refinement part that Stage 1 does not measure.
 - **Cross-problem transfer.** Swapping the algorithms (green/red curves) shows that each is specialised: the f21 algorithm on LJ ends at 0.066 vs 5e-6, the LJ algorithm on f21 at 7.5 vs 3.6.
 - **Landscape caveat.** LJ at d=6 is an almost flat plateau with a narrow well, not a rugged multimodal function, so success there says more about local trust-region search around the best point than about global modelling. The LJ algorithm's result should not be read as general "better BO".
 - **Baselines.** The BoTorch and CMA-ES settings are our own choices (listed above); the instructors did not specify them, so rankings could change with their settings. CMA-ES uses sigma0 = 2 from the best initial point.
-- **Search budget.** Searches stopped at 68/76 candidates because of the free-tier quota, one search per target, so there is no estimate of how much the result depends on the random search trajectory.
+- **Search budget.** Searches stopped at 68/76 candidates (the limit of 100 is a maximum) because of the free-tier quota, one search per target, so there is no estimate of how much the result depends on the random search trajectory.
 
 ## 10. Repository layout
 `boa/` problems, AOCC, evaluator, LLM wrapper · `baselines/` CMA-ES and BoTorch BO · `run_llamea.py` · `run_benchmark.py` ·
-`make_plots.py` · `prompts/` · `config/` · `results/` (logs, raw per-run values, figures). Reused external code is credited
+`make_plots.py` · `make_extra_plots.py` · `prompts/` · `config/` · `results/` (logs, raw per-run values, figures). Reused external code is credited
 in file headers (pycma, BoTorch tutorials, LLaMEA, the instructors' `Practical_Problems` and sample task prompt).
