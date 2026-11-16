@@ -27,7 +27,11 @@ for ax, prob in zip(axs, ["bbob_f21", "lj1125"]):
     for d in sorted(glob.glob(str(ROOT / "results/llamea_logs" / f"exp-*{prob}_run2"))):
         fit = [float(json.loads(l)["fitness"]) for l in open(d + "/log.jsonl")]
         fit = np.array([v if np.isfinite(v) else np.nan for v in fit]); x = np.arange(1, len(fit) + 1)
-        ax.scatter(x, fit, s=8, alpha=.5, label="candidate AOCC"); ax.plot(x, np.fmax.accumulate(np.nan_to_num(fit, nan=-1)), "r", label="best so far")
-    ax.set_title(f"LLaMEA search: {TITLE[prob]}"); ax.set_xlabel("candidate #"); ax.set_ylabel("AOCC"); ax.legend(fontsize=8); ax.grid(alpha=.3)
+        ok = np.isfinite(fit); top = np.nanmax(fit); yfail = -0.05 * top
+        ax.scatter(x[ok], fit[ok], s=8, alpha=.5, label="candidate AOCC")
+        ax.scatter(x[~ok], np.full((~ok).sum(), yfail), s=14, marker="x", c="gray", label=f"failed candidate, no score ({(~ok).sum()})")
+        ax.plot(x, np.fmax.accumulate(np.nan_to_num(fit, nan=0.0)), "r", label="best so far")   # AOCC >= 0, line starts at 0
+        ax.set_ylim(yfail * 2, top * 1.08)
+    ax.set_title(f"LLaMEA search: {TITLE[prob]}"); ax.set_xlabel("candidate #"); ax.set_ylabel("AOCC"); ax.legend(fontsize=7, loc="upper left"); ax.grid(alpha=.3)
 fig.tight_layout(); fig.savefig(FIG / "llamea_search_convergence.png", dpi=150)
 print((FIG / "summary.md").read_text())
