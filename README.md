@@ -8,7 +8,13 @@ Targets (d = 6, seeds 60–69 = 10·6 + r):
 
 ## 1. Environment
 ```bash
+pip install uv                           # or see https://docs.astral.sh/uv/ if uv is not installed
 uv sync --locked                         # Python 3.13, CPU-only PyTorch
+```
+Alternative without uv (Python 3.13; the extra index is needed for the CPU-only `torch==2.15.0+cpu`):
+```bash
+python3 -m venv .venv && . .venv/bin/activate
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 `uv` reads `.python-version`, `pyproject.toml`, and `uv.lock` and creates a local `.venv`.
 `requirements.txt` records the exact packages used for the original runs. The uv environment also includes Jupyter and
