@@ -192,6 +192,7 @@ Script and raw output: `results/sign_check/`. Three seeds only, so it is anecdot
 ├── results/
 │   ├── best_*_run2.py            selected generated algorithms
 │   ├── stage2/                   raw f-values, one .npy per method, problem and seed
+│   ├── stage2_logs/              console logs of the Stage 2 runs (one log is from a job that had to be restarted)
 │   ├── llamea_logs/              final searches (exp-*) and earlier attempts (archive_*)
 │   ├── figures/                  all figures + summary.md
 │   └── sign_check/               objective-sign check of the LJ algorithm (section 8.2)

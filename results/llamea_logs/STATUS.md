@@ -1,1 +1,0 @@
-- 18:17: started extra BoTorch baseline invocation on lj1125 (3 procs, results/stage2_botorch_lj.out); original invocation (2 procs) continues on f21 then lj; resumable/cached. Gemini run2: f21 68 logged best 0.277, LJ 68 logged best 0.107.
